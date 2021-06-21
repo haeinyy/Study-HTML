@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Colors -->
+    <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color:palevioletred;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<!-- 가장 중요!!
+<br> : 줄바꿈 / &nbsp; : 띄어쓰기 / <a target="_blank"></a> : 링크삽입-->
+
+<body style="background-color:lightcyan;" id='top'>
+    <h1 style="color:teal;">Haein's Homepage</h1>
+    <a href="#bottom">
+        <img src="down.jpg" width="50px">
+        DOWN
+    </a>
+    <br>
+
+    <!-- youtube 영상 삽입 -->
+    <h3>[ANNA's youtube]</h3>
+    <iframe src="https://www.youtube.com/embed/fZ3BnRXMssI", width="300px">
+    </iframe>
+    <br>
+
+    <!-- img 삽입 : width="100%" / width="200px" -->
+    <!-- alt="대체텍스트" / title="마우스팝업" -->
+    <img src="background_image.jfif" width="300px" alt="backgroud_image">
+    <br>
+    <img src="http://ggoreb.com/images/luffy.jpg" width="300px" title="만화주인공" alt="Luppy">
+    <br><hr>
+
+    Test % &nbsp; &nbsp;
+
+    <!-- p : 문단 (자동줄바꿈) / br : 줄바꿈 -->
+    <p style="color: coral;">HTML@@!!!!!!</p>
+    <hr>
+
+    <!-- checkbox 표시 -->
+    <label><input type='checkbox' name="" id=동의>동의</input></label>
+    <!-- hr : 수평선 -->
+    <hr>
+
+    <!-- a href : 링크 만들기 / target="_blank" : 새로운 창으로 열림 -->
+    <a href="http://ggoreb.com/game" target="_blank">게임</a>
+    <hr>
+
+    <!-- <table> : 테이블정의 / <tr> : 행  / <td> : 열,셀 -->
+    <!-- rowspan : 행합치기 / colspan : 열합치기 -->
+    <table border="1">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <!-- <td>Bill Gates</td> -->
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <a id="bottom" href="#top">
+        <img src="up.jpg" width="50px">
+        TOP
+    </a>
+</body>
+</html>
